@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IGNITE SHOP
 
-## Getting Started
+## 💻 Sobre o projeto
 
-First, run the development server:
+<p align="center">É uma aplicação que utiliza a API do Stripe para buscar produtos.</p>
+<p align="center">O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.</p>
 
+---
+
+## ⚙️ Funcionalidades
+
+- Listagem de produtos com imagem, nome e preço.
+- Página com maiores detalhes do produto.
+- Carrinho de compras.
+- Compra de produtos.
+
+Para o desenvolvimento foram aplicados conceitos como:
+- Axios
+- Stitches
+- React Dialog
+- Keen Slider
+- Stripe
+- Shopping Cart
+- TypeScript
+
+---
+
+## 🎨 Layout
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/home.png" width="400px">
+
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/produt.png" width="400px">
+
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/cart.png" width="400px">
+
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/payment.png" width="400px">
+
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/success.png" width="400px">
+</p>
+
+---
+
+## 🚀 Como executar o projeto
+A aplicação foi desenvolvida utilizando [Next.js](https://nextjs.org/docs/getting-started)
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina o [Git](https://git-scm.com). Além disso, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/). Também considere utilizar a documentação do [Next.js](https://nextjs.org/docs/getting-started) para fazer alterações no projeto.
+
+#### Rodando a aplicação web (Frontend)
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone este repositório
+$ git clone git@github.com:evertonschultz/04-ignite-shop.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd 04-ignite-shop
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### **Website**  [Next.js](https://nextjs.org/docs/getting-started)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   **[Radix UI / React Dialog](https://www.radix-ui.com/docs/primitives/components/dialog)**
+-   **[Stitches / React](https://stitches.dev/docs/installation)**
+-   **[Axios](https://axios-http.com/ptbr/docs/intro)**
+-   **[Keen Slider](https://keen-slider.io/)**
+-   **[Next.js](https://nextjs.org/docs/getting-started)**
+-   **[Phosphor React](https://phosphoricons.com/)**
+-   **[Stripe](https://stripe.com/br)**
+-   **[Use Shopping Cart](https://useshoppingcart.com/docs/)**
 
-## Learn More
+## 🦸 Autor
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/19807265?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Everton Schultz</b></sub></a>
+ <br />
 
-To learn more about Next.js, take a look at the following resources:
+[![Linkedin Badge](https://img.shields.io/badge/-Everton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/https://www.linkedin.com/in/%C3%A9verton-schultz-824a1612b/)](https://www.linkedin.com/in/https://www.linkedin.com/in/%C3%A9verton-schultz-824a1612b/)
+[![Gmail Badge](https://img.shields.io/badge/-evertonf.m.schultz98@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:evertonf.m.schultz98@gmail.com)](mailto:evertonf.m.schultz98@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
