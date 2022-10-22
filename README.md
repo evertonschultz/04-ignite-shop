@@ -32,7 +32,7 @@ Para o desenvolvimento foram aplicados conceitos como:
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/home.png" width="400px">
 
-  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/produt.png" width="400px">
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/product.png" width="400px">
 
   <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/cart.png" width="400px">
 
