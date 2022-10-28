@@ -2,8 +2,8 @@
 
 ## 💻 Sobre o projeto
 
-<p align="center">É uma aplicação que utiliza a API do Stripe para buscar produtos.</p>
-<p align="center">O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.</p>
+É uma aplicação que utiliza a API do Stripe para buscar produtos.
+O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.
 
 ---
 
@@ -92,4 +92,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Everton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/https://www.linkedin.com/in/%C3%A9verton-schultz-824a1612b/)](https://www.linkedin.com/in/https://www.linkedin.com/in/%C3%A9verton-schultz-824a1612b/)
 [![Gmail Badge](https://img.shields.io/badge/-evertonf.m.schultz98@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:evertonf.m.schultz98@gmail.com)](mailto:evertonf.m.schultz98@gmail.com)
+
+## License
+Este projeto pode ser usado por qualquer pessoa! Licença MIT
 
