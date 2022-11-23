@@ -52,8 +52,16 @@ export default function Home({ products }) {
   const [sliderRef] = useKeenSlider({
     slides: {
       perView: 1.6,
-      spacing: 48
+      spacing: 48,
     },
+    breakpoints: {
+      '(max-width: 610px)': {
+        slides: {
+          perView: 1.4,
+          spacing: 18,
+        },
+      }
+    }
   })
   return (
     <>

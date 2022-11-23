@@ -62,6 +62,12 @@ export const Content = styled(Dialog.Content, {
   top: '50%',
   left: '100%',
   transform: 'translate(-100%, -50%)',
+
+  '@bp1': {
+    minWidth: '22rem',
+    paddingLeft: '1.5rem',
+    paddingRight: '1.5rem'
+  },
 })
 
 export const Overlay = styled(Dialog.Overlay, {

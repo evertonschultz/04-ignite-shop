@@ -1,9 +1,12 @@
-# IGNITE SHOP
+<h1 align="center">
+  <img alt="Ignite Shop" title="#Ignite Shop" src="./Capa.png" />
+</h1>
 
 ## 💻 Sobre o projeto
 
 <p align="center">É uma aplicação que utiliza a API do Stripe para buscar produtos.</p>
 <p align="center">O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.</p>
+<p align="center">A responsividade foi adicionada como um extra por mim.</p>
 
 ---
 
@@ -27,12 +30,24 @@ Para o desenvolvimento foram aplicados conceitos como:
 
 ## 🎨 Layout
 
-### Web
+### Web responsivo (Mobile)
+
+<p align="center">
+  <img alt="IgniteShop" title="#IgniteShop" src="./src/assets/layout/home-mobile.png" width="200px">
+
+  <img alt="IgniteShop" title="#IgniteShop" src="./src/assets/layout/product-mobile.png" width="200px">
+
+  <img alt="IgniteShop" title="#IgniteShop" src="./src/assets/layout/cart-mobile.png" width="200px">
+
+  <img alt="IgniteShop" title="#IgniteShop" src="./src/assets/layout/success-mobile.png" width="200px">
+</p>
+
+### Web (Desktop)
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/home.png" width="400px">
 
-  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/produt.png" width="400px">
+  <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/product.png" width="400px">
 
   <img alt="GithubBlog" title="#GithubBlog" src="./src/assets/layout/cart.png" width="400px">
 

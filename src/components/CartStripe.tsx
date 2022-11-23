@@ -67,7 +67,7 @@ function Cart() {
   return (
     <>
     <ItemsContainer>
-      {cartEntries.length === 0 ? <p>Sua sacola está vazio.</p> : null}
+      {cartEntries.length === 0 ? <p>Sua sacola está vazia.</p> : null}
       {cartEntries}
     </ItemsContainer>
     <Footer>

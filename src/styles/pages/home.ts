@@ -11,7 +11,7 @@ export const HomeContainer = styled('main', {
 export const Product = styled('div', {
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
   borderRadius: 8,
-  cursor: 'pointer',
+  
   position: 'relative',
   overflow: 'hidden',
   minWidth: 540,
@@ -21,7 +21,16 @@ export const Product = styled('div', {
   justifyContent: 'center',
 
   img: {
-    objectFit: 'cover'
+    objectFit: 'cover',
+    cursor: 'pointer',
+    '@bp1': {
+      width: 300,
+      height: 300
+    },
+  },
+
+  '@bp1': {
+    height: 400
   },
 
   footer: {
@@ -57,8 +66,21 @@ export const Product = styled('div', {
         fontSize: '$xl',
         fontWeight: 'bold',
         color: '$green300',
+        '@bp1': {
+          marginTop: '1rem'
+        },
       }
-    },    
+    },
+    '@bp1': {
+      position: 'absolute',
+      bottom: '0',
+      left: '0',
+      right: '0',
+      padding: '1rem',
+      opacity: 1,
+      transform: 'none',
+      flexDirection: 'column',
+    },
   },
 
   '&:hover': {
@@ -83,4 +105,14 @@ export const AddToCartButton = styled('button', {
   border: 0,
 
   cursor: 'pointer',
+
+  '@bp1': {
+    position: 'absolute',
+    display: 'flex',
+    width: 30,
+    height: 30,
+    padding: 6,
+    bottom: '1rem',
+    right: '1rem',
+  },
 })

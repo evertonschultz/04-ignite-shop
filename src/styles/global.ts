@@ -10,7 +10,10 @@ export const globalStyles = globalCss({
   body: {
     '-webkit-font-smoothing': 'antialised',
     backgroundColor: '$gray900',
-    color: '$gray100'
+    color: '$gray100',
+    '@bp1': {
+      paddingLeft: '0.5rem'
+    }
   },
 
   'body, input, textarea, button': {

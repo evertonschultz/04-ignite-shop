@@ -8,6 +8,17 @@ export const ProductContainer = styled('main', {
 
   maxWidth: 1180,
   margin: '0 auto',
+
+  '@bp1': {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gridTemplateColumns: 'none',
+    margin: '0',
+    gap: '2rem',
+    marginRight: '0.5rem',
+    marginBottom: '1rem'
+  }
 })
 
 export const ImageContainer = styled('div', {
@@ -22,8 +33,17 @@ export const ImageContainer = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
 
+  '@bp1': {
+    width: '100%',
+    height: '100%',
+  },
+
   img: {
     objectFit: 'cover',
+    '@bp1': {
+      maxWidth: 320,
+      maxHeight: 320,
+    },
   }
 })
 
@@ -68,6 +88,10 @@ export const ProductDetails = styled('div', {
 
     '&:not(:disabled):hover': {
       backgroundColor: '$green300',
+    },
+
+    '@bp1': {
+      marginTop: '2rem',
     }
   },
 })
