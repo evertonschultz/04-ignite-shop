@@ -4,9 +4,9 @@
 
 ## 💻 Sobre o projeto
 
-<p align="center">É uma aplicação que utiliza a API do Stripe para buscar produtos.</p>
-<p align="center">O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.</p>
-<p align="center">A responsividade foi adicionada como um extra por mim.</p>
+<p>É uma aplicação que utiliza a API do Stripe para buscar produtos.</p>
+<p>O projeto foi desenvolvido durante as aulas, tendo sequência no desafio 04 da trilha atualizada de ReactJs do Ignite, disponibilizado pela Rocketseat.</p>
+<p>A responsividade foi adicionada como um extra por mim.</p>
 
 ---
 
